@@ -1,16 +1,55 @@
-# React + Vite
+# CryptoPlace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CryptoPlace is a React + Vite project that displays cryptocurrency data and charts using the CoinGecko API.  
+Users can view the latest coin prices, market caps, 24h changes, and historical price charts.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- View top cryptocurrencies with current price, market cap, and 24h change.
+- Search for any cryptocurrency by name.
+- Click on a coin to see detailed info and historical price line chart.
+- Supports multiple currencies: USD, EUR, INR.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** React + Vite + Tailwind CSS
+- **Charts:** react-google-charts
+- **Routing:** React Router v7
+- **State Management:** React Context API
+- **API:** CoinGecko public API
 
-## Expanding the ESLint configuration
+## Setup Instructions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+
+```bash
+git clone https://github.com/lokesh2904/cryptoplace.git
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Run locally:
+
+```bash
+npm run dev
+```
+
+4. Build for production:
+
+```bash
+npm run build
+```
+
+5. Deploy to GitHub Pages:
+
+```bash
+npm run deploy
+```
+
+## Live Demo
+
+[CryptoPlace Live](https://lokesh2904.github.io/cryptoplace)
